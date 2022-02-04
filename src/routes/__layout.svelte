@@ -1,5 +1,5 @@
 <script lang="ts" context="module">
-  import { ApolloClient, InMemoryCache } from "@apollo/client/core";
+  import { ApolloClient, InMemoryCache } from "@apollo/client/core/index.js";
   export const load: Load = () => {
     const client = new ApolloClient({ cache: new InMemoryCache() });
     return {
