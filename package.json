@@ -2,9 +2,9 @@
   "name": "~TODO~",
   "version": "0.0.1",
   "scripts": {
-    "dev": "svelte-kit dev",
-    "build": "svelte-kit build",
-    "preview": "svelte-kit preview"
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
     "@sveltejs/adapter-node": "next",
@@ -12,20 +12,15 @@
     "svelte": "^3.34.0",
     "svelte-preprocess": "^4.0.0",
     "tslib": "^2.0.0",
-    "typescript": "^4.0.0"
+    "typescript": "^4.0.0",
+    "vite": "^3.0.4"
   },
   "type": "module",
   "dependencies": {
-    "@apollo/client": "^3.3.18",
+    "@apollo/client": "^3.6.9",
     "@fontsource/fira-mono": "^4.2.2",
     "graphql": "^16.0.0",
     "@lukeed/uuid": "^2.0.0",
     "cookie": "^0.4.1"
-  },
-  "pnpm": {
-    "overrides": {
-      "ts-invariant": "^0.10.0",
-      "vite": "^2.8.0-beta.5"
-    }
   }
 }
